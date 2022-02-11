@@ -1,0 +1,29 @@
+{
+  "name": "puhelinluettelo_backend",
+  "version": "1.0.0",
+  "description": "Kurssin Fullstack 2022 osan 3 tehtävien palautusrepositorio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjeronen/Fullstack-2022-Osa3.git"
+  },
+  "author": "Heli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjeronen/Fullstack-2022-Osa3/issues"
+  },
+  "homepage": "https://github.com/hjeronen/Fullstack-2022-Osa3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
